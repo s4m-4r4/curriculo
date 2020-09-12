@@ -1,0 +1,53 @@
+/* localização da foto, para a direita
+*/
+body{
+    margin: 1px;
+    background-color: lightgoldenrodyellow;  
+    margin-left: 1px;                           
+    padding: 5px;
+
+}
+nav{
+    border: none;
+    color: white;
+    padding: 4px ;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px ;
+    cursor: pointer;
+}
+
+.contrate-me{
+        border: 1px solid white;
+        border-radius: 2px;
+        background-color: rosybrown;
+        margin-left: 4px;
+        color: white;
+        text-decoration: none;
+        padding: 6px;
+}
+
+
+
+#informacaop{
+    background-color:white;  
+    margin-left: 15px;                           
+    padding: 5px;
+
+}
+
+#Experiencia{
+    background-color:white;  
+    margin-left: 15px;                           
+    padding: 5px;
+
+}
+
+#adicionais{
+    background-color:white;  
+    margin-left: 15px;                           
+    padding: 5px;
+
+}
+

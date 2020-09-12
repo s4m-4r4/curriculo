@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+              <head>
+                  <meta charset="UTF-8">
+                   <title> Contrate-me </title>
+                  <link href="Layout/contrate-me-samara-miranda.css" rel="stylesheet" type="text/css" />
+              </head>
+            <body style="background-color:ivory;" @media="screen">
+              
+              
+              <div style="background-color: lightcoral;">
+                <nav >
+                    <a class="index"  href="index.html"> Voltar </a>           
+                </nav>                         
+                </div>
+
+              <img src="contrate-me.jpeg" alt="Imagem Contrate-me" width="110" height="140"/>
+
+              <div class="Eu" style="background-color: lightcoral;">
+                <p>
+                Sou a Samara de Miranda Santos estudante de 
+                Ciência da Computação e busco uma oportunidade  <br>
+                de estágio para ampliar meus conhecimentos e  
+                experiência. 
+                </p>
+              </div><br>
+
+              
+
+               <div>
+
+                
+                <label for="nome"><div id="coral">Nome do interessado </div></label>
+                <input type="text" name="interessado" id="nome" />
+                <br>
+
+                <label for="nomempresa"><div id="cora2">Nome da empresa </div></label> 
+                <input type="text" name="empresa" id="nomempresa" />
+                <br>
+
+                <label for="valor"><div id="cora3">Salário </div></label> 
+               Valor (Mínimo R$4.000,00 Pretenção R$5.000,00 negociável):
+               <input type="number" placeholder="R$5.000,00" id="valor" name="salario" min="4.000,00" max="5.000,00" />
+              </div>
+              
+               <div>
+                <label for="trabalho"><div id="cora4">Tipo de trabalho  </div></label> 
+                        <select name="Tipo de trabalho ">                
+                        <option value="home office">      Home office      </option>
+                        <option value="presencial ">   Presencial   </option>
+                        <option value=" misto">    Misto    </option>
+                        </select>  
+               </div>
+
+              <div> 
+              <label for="vinculo"><div id="cora5">Tipo de vínculo</div></label>                 
+               CLT
+               <label for="CLT">
+               <input type="radio"  value=" CLT"/>
+               </label>
+
+               PJ
+              <label for="PJ">
+              <input type="radio"  value="  PJ" id="PJ"/>
+              </label>
+
+               freelancer
+               <label for="freelancer">
+               <input type="radio"  value=" freelancer" id="freelancer"/>
+               </label>
+              </div>
+
+              <label for="inicio"><div id="cora6">Data da Início</div></label>
+              <input type="date" name="datadeInicio" id="inicio" />
+              <br>
+
+              <label for="urgencia"><div id="cora7">Opção de urgência:</div></label>
+              <label for="serviços">Preciso dos seus serviços com urgência!</label>
+              <input type="checkbox" name="serviços[]" value="urgencia" id="urgencia" id="serviços"  />
+              <br>
+
+              <button class="button" type="botton" name="Enviar" onclick=" alert('Enviado com sucesso!')">Enviar</button>
+              <br>
+
+
+          <footer>
+            <div style="background-color: lightcoral">
+              IFSP - Câmpus Presidente Epitácio
+              Rua José Ramos Junior, 27-50
+            </div>
+           </footer>
+   </body>
+</html>
